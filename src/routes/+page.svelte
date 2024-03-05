@@ -1,3 +1,10 @@
+<script>
+    /** @type {import('./$types').PageData} */
+    export let data;
+    import projects from "$lib/projects.json";
+    import Project from "$lib/Project.svelte";
+</script>
+
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
@@ -15,3 +22,12 @@
     adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.
 
 </p>
+<br/>
+<h2>Latest Projects</h2>
+<br/>
+<div class="projects">
+    {#each projects.slice(0, 3) as p}
+        <Project info={p} hLevel=3/>
+    {/each}
+</div>
+

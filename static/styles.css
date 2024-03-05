@@ -57,7 +57,7 @@ a:hover {
     border-bottom-color: var(--color-accent);
     /* background-color: oklch(from var(--color-accent) 95% 5% 167.72); */
     background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
-  }
+}
 
 /* ---- primitive styling method for contact form ----*/
 
