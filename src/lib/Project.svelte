@@ -4,6 +4,14 @@
     let p = info;
 </script>
 
+<style>
+    article {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 3;
+        padding: 1em;
+    }
+</style>
 
 <article>
     <svelte:element this={"h" + hLevel}>{ p.title }</svelte:element>

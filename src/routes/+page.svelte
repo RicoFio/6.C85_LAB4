@@ -3,6 +3,7 @@
     export let data;
     import projects from "$lib/projects.json";
     import Project from "$lib/Project.svelte";
+    import Projects from "$lib/Projects.svelte";
 </script>
 
 <svelte:head>
@@ -25,9 +26,4 @@
 <br/>
 <h2>Latest Projects</h2>
 <br/>
-<div class="projects">
-    {#each projects.slice(0, 3) as p}
-        <Project info={p} hLevel=3/>
-    {/each}
-</div>
-
+<Projects {projects}></Projects>
