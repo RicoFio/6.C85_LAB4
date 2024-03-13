@@ -4,6 +4,7 @@
         "image": "images/a2_media/gif/Animation.gif",
         "alt": "Animation of the Boston housing market.",
         "link": "https://ricofio.github.io/6.C85/projects/assignments/a2/index.html",
+        "year": 2024,
         "description": "In this data analysis report, we explore the Metropolitan Area Planning Council's (MAPC) dataset on residential real estate sales in the City of Boston ranging from 2000 to 2023. We find that the landscape has significantly changed in terms of housing mix, availability, and ownership."
     },
     {
@@ -11,6 +12,69 @@
         "image": "images/a3_media/final_infographic.png",
         "alt": "Infographic on U.S. population in 1900 and 2000.",
         "link": "https://ricofio.github.io/6.C85/projects/assignments/a3/index.html",
+        "year":  2024,
         "description": "In this data visualization report, we attempt to fabricate and explore data visualizations to answer out self-posed question of \"How did U.S. population age and gender compositions differ between 1900 and 2000?\" We first explored three different sketches and their explanatory power. Following, we created a professional illustration combining different aspects of the produced sketches."
+    },
+    {
+        "title": "Climate Change Deception",
+        "image": "https://ricofio.github.io/6.C85/projects/assignments/a4/us_loses.png",
+        "alt": "Northern America modified climate data plot",
+        "link": "https://ricofio.github.io/6.C85/projects/assignments/a4/index.html",
+        "year":  2024,
+        "description": "This data visualization exercise put me on the probe to generate two visualizations endorsing two opposing views on the same proposition. The proposition here was, \"Is Northern America a Main Contributor of Climate Change?\" Give it a read!"
+    },
+    {
+        "title":  "MIT Sailing Pavilion Volunteer",
+        "image": "https://images.unsplash.com/photo-1656140484822-ab36feab0b4d?q=80&w=1899&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt":  "MIT sailing boat on Boston's Charles river",
+        "link":  "https://sailing.mit.edu/",
+        "year":  2023,
+        "description":  "Volunteering sailing instructor at the MIT sailing pavilion"
+    },
+    {
+        "title":  "Central and South America Trip",
+        "image": "https://images.unsplash.com/photo-1581875598938-cac706391c98?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt":  "Image off the coast of one of the Galapagos Islands",
+        "link":  "https://en.wikipedia.org/wiki/Central_America",
+        "year": 2023,
+        "description":  "I had a great time during 4 months of travelling"
+    },
+    {
+        "title":  "Reha Lingo - System Architect",
+        "image": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt":  "Two women at therapy",
+        "link":  "https://rehalingo.eu/",
+        "year": 2022,
+        "description":  "Worked as a system architect for a joint research project between several German universities to create a virtual speech therapy agent."
+    },
+    {
+        "title":  "Sailing instructor Centro Velico Caprera (CVC)",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ee/63/05/centro-velico-caprera.jpg?w=800&h=-1&s=1",
+        "alt":  "Sunset sailing RS500",
+        "link":  "https://centrovelicocaprera.it/",
+        "year": 2019,
+        "description":  "I've been a sailing instructor for quite some while now"
+    },
+    {
+        "title":  "Equitable Public Transit Network Reduction",
+        "image": "https://plus.unsplash.com/premium_photo-1677444598404-739228d58c97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt":  "Metro in movement",
+        "link":  "https://github.com/RicoFio/equitable-transport-reduction",
+        "year": 2022,
+        "description":  "Work that I have looked into during my time at the University of Amsterdam."
+    },
+    {
+        "title":  "",
+        "image": "",
+        "alt":  "",
+        "link":  "",
+        "description":  ""
+    },
+    {
+        "title":  "",
+        "image": "",
+        "alt":  "",
+        "link":  "",
+        "description":  ""
     }
 ]
