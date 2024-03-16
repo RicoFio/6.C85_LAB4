@@ -53,4 +53,4 @@
 <br/>
 <h2>Latest Projects</h2>
 <br/>
-<Projects {projects} highlight=1></Projects>
+<Projects data={projects} highlight=1></Projects>
