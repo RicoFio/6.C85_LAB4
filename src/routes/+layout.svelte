@@ -4,6 +4,7 @@
     {url: "./cv", title: "CV"},
 	{url: "./projects", title: "Projects"},
 	{url: "./contact", title: "Contact"},
+	{url: "./meta", title: "Meta"},
     {url: "https://github.com/ricofio", title: "GitHub"},
     ];
     import { page } from '$app/stores';

@@ -17,9 +17,13 @@
 		return values.includes(query.toLowerCase());
 	});
 	$: rolledData = d3.rollups(filteredProjects, v => v.length, d => d.year);
-	$: pieData = rolledData.map(([year, count]) => {
-		return { value: count, label: year };
-	});
+	let pieData
+	$: {
+		pieData = rolledData.map(([year, count]) => {
+			return { value: count, label: year };
+		});
+		console.log("UEEE", pieData)
+	}
 	$: filteredByYear = filteredProjects.filter(project => {
 		return selectedYear>0 ? project.year === selectedYear : true;
 	});

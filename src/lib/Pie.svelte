@@ -1,18 +1,15 @@
 <script>
     import * as d3 from 'd3';
-    // let data = [
-    //     { value: 1, label: "apples" },
-    //     { value: 2, label: "oranges" },
-    //     { value: 3, label: "mangos" },
-    //     { value: 4, label: "pears" },
-    //     { value: 5, label: "limes" },
-    //     { value: 5, label: "cherries" }
-    // ];
 
     export let data = [];
     let arcGenerator = d3.arc().innerRadius(0).outerRadius(50);
     let sliceGenerator = d3.pie().value(d => d.value);
-    $: arcData = sliceGenerator(data);
+    let arcData;
+    $: {
+        console.log("PASSED DATA", data)
+        arcData = sliceGenerator(data);
+        console.log("ARC DATA", arcData)
+    }
     $: arcs = arcData.map(d => arcGenerator(d));
     export let selectedIndex = -1;
 
