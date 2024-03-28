@@ -2,7 +2,6 @@
     /** @type {import('./$types').PageData} */
     export let data;
     import projects from "$lib/projects.json";
-    import Project from "$lib/Project.svelte";
     import Projects from "$lib/Projects.svelte";
 </script>
 
