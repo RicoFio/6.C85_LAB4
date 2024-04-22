@@ -24,6 +24,14 @@
         "description": "This data visualization exercise put me on the probe to generate two visualizations endorsing two opposing views on the same proposition. The proposition here was, \"Is Northern America a Main Contributor of Climate Change?\" Give it a read!"
     },
     {
+        "title": "Boston Bikesharing",
+        "image": "https://ricofio.github.io/6.C85/projects/assignments/a4/boston_bikes_screenshot.png",
+        "alt": "Project on Boston bike sharing",
+        "link": "https://bostonbikes.vercel.app/",
+        "year":  2024,
+        "description": "Created a visualization of the public buikes in Boston"
+    },
+    {
         "title":  "MIT Sailing Pavilion Volunteer",
         "image": "https://images.unsplash.com/photo-1656140484822-ab36feab0b4d?q=80&w=1899&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt":  "MIT sailing boat on Boston's Charles river",
